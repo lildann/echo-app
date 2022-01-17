@@ -24,6 +24,7 @@ Say something:
 exit
 Goodbye!
 ```
+
 INPUT | OUTPUT
 ------|-------
 hello, world | ```2018-01-09 \| 16:26 \| You said: 'hello, world'!" ```
@@ -31,3 +32,34 @@ exit | `Goodbye!`
 
 * TimeCop to freeze time
 * Classicist approach vs Mockist testing
+
+
+Getting Started
+-----
+
+Clone this repository
+```
+$ git clone https://github.com/lildann/echo-app.git
+$ cd echo-app
+```
+
+Install Bundler
+```
+$ gem install bundler
+```
+
+Install all program dependencies
+```
+$ bundle install
+```
+
+Run app
+```
+$ ruby ./lib/echo.rb  
+```
+
+Run app with tests
+```
+$ rspec 
+```
+
