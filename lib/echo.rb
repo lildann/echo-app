@@ -1,23 +1,29 @@
-class Echo
-
-  def prompt
-    puts "Say something"
+def run_app
+  while true do
+    prompt
+    user_input = gets.chomp 
+    generate_echo(user_input)
+    break if user_input == 'exit'
   end
+end
 
-  def generate_echo(user_input)
-    if user_input == "exit"
-      puts "Goodbye!"
-    else 
-      puts "#{date} | #{time} | You said: '#{user_input}'!"
-    end
-  end
+def prompt
+  puts "Say something"
+end
 
-  private
-  def date
-    Time.now.strftime("%F")
+def generate_echo(user_input)
+  if user_input == "exit"
+    puts "Goodbye!"
+  else 
+    puts "#{date} | #{time} | You said: '#{user_input}'!"
   end
+end
 
-  def time
-    Time.now.strftime("%H:%M")
-  end
+private
+def date
+  Time.now.strftime("%F")
+end
+
+def time
+  Time.now.strftime("%H:%M")
 end
