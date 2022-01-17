@@ -26,8 +26,8 @@ Goodbye!
 ```
 INPUT | OUTPUT
 ------|-------
-hello, world | 2018-01-09 | 16:26 | You said: 'hello, world'!
-exit | Goodbye!
+hello, world | `2018-01-09 | 16:26 | You said: 'hello, world'!"`
+exit | `Goodbye!`
 
-TimeCop to freeze time
-Classicist approach vs Mockist testing
+* TimeCop to freeze time
+* Classicist approach vs Mockist testing

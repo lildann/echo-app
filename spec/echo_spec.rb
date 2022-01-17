@@ -4,7 +4,7 @@ require 'timecop'
 describe 'Echo-app' do
  
   it "should begin with a prompt" do
-    expect { prompt }.to output("Say something\n").to_stdout
+    expect { prompt }.to output("Say something:\n").to_stdout
   end
 
   it "should output 'Goodbye!' if user inputs 'exit'" do
