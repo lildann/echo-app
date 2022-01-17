@@ -26,7 +26,7 @@ Goodbye!
 ```
 INPUT | OUTPUT
 ------|-------
-hello, world | `2018-01-09 | 16:26 | You said: 'hello, world'!"`
+hello, world | ```2018-01-09 \| 16:26 \| You said: 'hello, world'!" ```
 exit | `Goodbye!`
 
 * TimeCop to freeze time
